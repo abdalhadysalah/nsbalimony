@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302966173172",
+    "project_id": "nsb-alimony-9a1e6",
+    "storage_bucket": "nsb-alimony-9a1e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302966173172:android:1395c8f426aaadbeb69da1",
+        "android_client_info": {
+          "package_name": "nsb.alimony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302966173172-mc1hko284epsqk18p6gulu005pc7m2h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnD27pWN8wEFtLFVXkA3GHS4sNw2xJA6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302966173172-mc1hko284epsqk18p6gulu005pc7m2h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

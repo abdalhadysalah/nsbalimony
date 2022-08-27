@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">نفقة بنك ناصر الإجتماعى</string>
+    <string name="app_icon_desc">صورة التطبيق</string>
+    <string name="app_intro"> \nمرحباً بك في تطبيق بنك ناصر للنفقة \n\n تم تصميم هذا التطبيق خصيصًا لمساعدتك\n\nتحت إشراف بنك ناصر الإجتماعي \n\nيمكنك التسجيل الآن والإستفادة من الخدمة مجاناً </string>
+    <string name="enter_email">قم بإدخال البريد الإكترونى</string>
+    <string name="enter_password">قم بإدخال كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_account">إنشاء حساب جديد</string>
+    <string name="forgot_password">نسيت كلمة المرور</string>
+    <string name="ok">موافق</string>
+    <string name="empty_email">Email is Empty.</string>
+    <string name="badly_formatted_email">Email is badly formatted.</string>
+    <string name="empty_password">Password is Empty.</string>
+    <string name="badly_formatted_password">Password must not be less than 6 chars.</string>
+    <string name="verify_account">Verify your Account</string>
+    <string name="welcome_to_nsb_alimony">Welcome to NSB Alimony</string>
+    <string name="verify_account_intro"><![CDATA[<string name=\"verify_account_intro\">Congratulations!\n\nYour account created successfully, but you have one more step to be able to use Social.\n\nPlease check your personal email inbox to verify your account and then you will be able to start using Social!</string>]]></string>
+    <string name="start_using_nsb">Start Using NSB Alimony</string>
+    <string name="please_check_email">Please check your personal email inbox to verify your account and then you will be able to start using the app!</string>
+    <string name="logout">Logout</string>
+    <string name="your_files_numbers">Your Files Numbers</string>
+    <string name="send_password_reset_email">Send Password Reset Email</string>
+    <string name="balance">Balance</string>
+    <string name="branch_number">Branch Number</string>
+    <string name="branch_name">Branch Name</string>
+    <string name="branch_phone">Branch Phone</string>
+    <string name="branch_address">Branch Address</string>
+    <string name="confirm_email">Please Confirm your email.</string>
+    <string name="national_id">National Id</string>
+    <string name="add_new_user">Add new User</string>
+    <string name="inv_id">Invalid National Id</string>
+    <string name="fawry_pay">Fawry Pay</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="nsb.alimony">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NSBAlimony">
+
+        <activity
+            android:name=".PayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NSBAlimony.NoActionbar"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"/>
+
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false"
+            android:label="Control Panel" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NSBAlimony.NoActionbar"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:label="Reset your Password"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NSBAlimony.NoActionbar" />
+        <activity
+            android:name=".FemaleHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyActivity"
+            android:exported="false"
+            android:label="@string/verify_account"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NSBAlimony.NoActionbar" />
+    </application>
+
+</manifest>

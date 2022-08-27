@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Theme.NSBAlimony" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+    <style name="Theme.NSBAlimony.NoActionbar" parent="Theme.NSBAlimony">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.NSBAlimony.Fullscreen" parent="Theme.NSBAlimony.NoActionbar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ProgressStyle">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+</resources>
